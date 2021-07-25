@@ -1,0 +1,111 @@
+body {
+    background-image: linear-gradient(
+        180deg,
+        hsl(273, 75%, 66%),
+        hsl(240, 73%, 65%) 
+        );
+}
+   
+   
+   .attribution { 
+        font-size: 11px; 
+        text-align: center;
+        background-color: transparent;
+     }
+    .attribution a { 
+        color: hsl(228, 45%, 44%);
+     }
+     html, body, .tamañocien {
+         height: 100%;
+
+     }
+      .imagen-container {
+          display: inline-block;
+          background-color: white;
+          border-radius: 15px 0px 0px 15px  ;
+
+     }
+     .texto-container {
+         background-color: white;
+       display: inline-block;
+        border-radius: 0px 15px 15px 0px;
+        padding: 15px;
+     }
+
+  .tarjeta-wrapper {
+display: grid;
+align-content: center;
+justify-content: center;
+grid-template-columns: 40% 55%;
+  }
+
+.img-gris {
+  content: url(./images/bg-pattern-desktop.svg);
+ width: 350px;
+ height: 300px;
+ transform: translate(-200px);
+ margin: 2px;
+ max-width: 30rem;
+ position: absolute;
+ left: 300px;
+ top: 170px;
+ z-index: 1;
+
+}
+
+
+.img-caja { 
+ content: url(./images/illustration-box-desktop.svg);
+ transform: translate(-200px);
+ content-visibility: center;
+ position: absolute;
+ top: 200px;
+ left: 300px;
+ z-index: 1;
+}
+
+
+.my-image {
+  content: url(./images/illustration-woman-online-desktop.svg );
+  transform: translate(-200px);  
+  width: 350px;
+  height: 300px;
+  margin: 2px;
+  max-width: 30rem;
+  position: absolute;
+  left: 300px;
+  top: 100px;
+  z-index: 1;
+ 
+  
+}
+
+
+/*sobrescribiendo regla de bootstrao*/
+
+.accordion-button::after {
+  background-image: url(./images/icon-arrow-down.svg) !important;
+    }
+
+
+@media (max-width: 576px)  {
+  .texto-container {
+      background-color: red;
+      
+  }
+
+  .tarjeta-wrapper {
+    grid-template-columns: 100%;
+    grid-template-rows: 40% 50%;
+      }
+
+     .imagen-container {
+      content: url(./images/illustration-woman-online-mobile.svg);
+     } 
+
+      
+    
+}
+
+
+ 
