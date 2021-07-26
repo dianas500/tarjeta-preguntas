@@ -87,10 +87,7 @@ grid-template-columns: 40% 55%;
 
 
 @media (max-width: 576px)  {
-  .texto-container {
-      background-color: red;
-      
-  }
+  
 
   .tarjeta-wrapper {
     grid-template-columns: 100%;
@@ -99,7 +96,17 @@ grid-template-columns: 40% 55%;
 
      .imagen-container {
       content: url(./images/illustration-woman-online-mobile.svg);
+       top:6.5px;
+       left: 2rem;
+      
+      
+
      } 
+
+     .texto{
+       
+
+     }
 
       
     
