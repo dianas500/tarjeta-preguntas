@@ -43,12 +43,12 @@ grid-template-columns: 40% 55%;
   content: url(./images/bg-pattern-desktop.svg);
  width: 350px;
  height: 300px;
- transform: translate(-200px);
+ transform: translate(-60px);
  margin: 2px;
  max-width: 30rem;
  position: absolute;
  left: 300px;
- top: 170px;
+ top: 140px;
  z-index: 1;
 
 }
@@ -56,7 +56,7 @@ grid-template-columns: 40% 55%;
 
 .img-caja { 
  content: url(./images/illustration-box-desktop.svg);
- transform: translate(-200px);
+ transform: translate(-60px);
  content-visibility: center;
  position: absolute;
  top: 200px;
@@ -67,7 +67,7 @@ grid-template-columns: 40% 55%;
 
 .my-image {
   content: url(./images/illustration-woman-online-desktop.svg );
-  transform: translate(-200px);  
+  transform: translate(-60px);  
   width: 350px;
   height: 300px;
   margin: 2px;
